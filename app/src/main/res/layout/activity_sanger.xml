@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:onClick="back"
+            app:navigationIcon="@drawable/ic_back1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Back"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <TextView
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Sanger"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Khas Aceh"
+        android:textColor="#9C8E12"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="159dp"
+        android:layout_height="113dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="30dp"
+        app:srcCompat="@drawable/sanger" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-5dp"
+        android:background="@drawable/bg_circle_radius_primary"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Bahan :"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="4 sdm kopi bubuk Aceh, 500 ml air mendidih, 6 sdm susu kental manis putih, 1 sdm gula pasir"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Cara Membuat:"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Taruh kopi bubuk dalam cangkir besar. Tuangi air panas dan diamkan selama 3 menit. Siapkan dua cangkir besar yang ukurannya sama. Selanjutnya saring kopi dalam salah satu wadah. Tambahkan susu kental manis dan gula, aduk hingga larut. Pindahkan larutan kopi ini dalam wadah lain yang sudah disiapkan. Ulangi menuangkan kembali larutan kopi ke wadah semula dengan gerakan mengangkat tinggi saat menuangkan kopi. Cara ini akan membuat terbentuknya buih-buih halus di permukaan kopi. Ulangi 2-3 kali lalu tuangkan ke 2 buah gelas saji."
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+    </LinearLayout>>
+
+</LinearLayout>

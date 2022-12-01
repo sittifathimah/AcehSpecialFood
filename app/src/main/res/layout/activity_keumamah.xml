@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:onClick="back"
+            app:navigationIcon="@drawable/ic_back1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Back"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <TextView
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Keumamah"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Khas Aceh"
+        android:textColor="#9C8E12"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="159dp"
+        android:layout_height="113dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="30dp"
+        app:srcCompat="@drawable/keumamah" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-5dp"
+        android:background="@drawable/bg_circle_radius_primary"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Bahan Keumamah:"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="1,5 kg ikan tongkol segar, 150 gram asam jawa, 4 tangkai daun kari, 1 buah jeruk nipis, 5 butir bawang merah, iris halus, 5 buah cabai hijau besar, 6 buah cabai merah besar, 2 batang serai memarkan, 350 ml minyak goreng, 2 sdt gula pasir, garam secukupnya, air secukupnya untuk merebus ikan"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Bumbu Halus:"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="10 butir bawang merah, 4 siung bawang putih, 5—8 buah asam sunti, 30 gram cabai rawit hijau, 40 gram cabai merah keriting, 3/4 sdm kunyit bubuk, 1/2 sdm ketumbar bubuk, 1/2 ruas jahe"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Cara Membuat:"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Rebus ikan bersama asam jawa dan sesendok makan garam sampai matang. Setelah itu, dinginkan, suwir-suwir dagingnya, dan jemur di bawah sinar matahari sampai kering. Boleh juga dipanggang dengan oven sampai kering. Panaskan minyak goreng, lalu tumis bawang merah yang sudah diiris halus. Masukkan bumbu halus, tumis sebentar, lalu tambahkan sedikit air. Masukkan serai dan daun kari, lalu masak dengan api kecil sampai mengeluarkan minyak. Masukkan ikan yang sudah disuwir dan dikeringkan. Setelah itu, bumbui dengan garam dan gula pasir. Angkat dari kompor jika rasanya sudah sesuai selera."
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+    </LinearLayout>>
+
+</LinearLayout>

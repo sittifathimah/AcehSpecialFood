@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:onClick="back"
+            app:navigationIcon="@drawable/ic_back1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Back"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <TextView
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Jruek Drien"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Khas Aceh"
+        android:textColor="#9C8E12"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="159dp"
+        android:layout_height="113dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="30dp"
+        app:srcCompat="@drawable/jruek_drien" />
+
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginTop="-5dp"
+          android:background="@drawable/bg_circle_radius_primary"
+          android:orientation="vertical">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="20dp"
+              android:paddingLeft="10dp"
+              android:paddingRight="10dp"
+              android:text="Bahan Jruek Drien:"
+              android:textColor="@color/white"
+              android:textStyle="bold"
+              android:textSize="12sp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:paddingLeft="10dp"
+              android:paddingRight="10dp"
+              android:layout_marginTop="5dp"
+              android:text="1 kg udang, 1 buah kelapa ( 1,5 liter santan), 1 buah durian besar ( diasamkan 3 malam)."
+              android:textColor="@color/white"
+              android:textSize="12sp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="20dp"
+              android:paddingLeft="10dp"
+              android:paddingRight="10dp"
+              android:text="Bahan Irisan:"
+              android:textColor="@color/white"
+              android:textStyle="bold"
+              android:textSize="12sp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:paddingLeft="10dp"
+              android:paddingRight="10dp"
+              android:layout_marginTop="5dp"
+              android:text="20 lembar daun jeruk purut (yang muda), 5 lbr daun tapak liman/daun mangkok (yang muda), 5 lembar daun kunyit (yang muda), 20 lembar daun melinjo (yang muda), 100 gr kacang panjang, 100 gram terong telunjuk/terong hijau, 5 batang sereh, 5 buah cabe hijau, 5 buah cabe merah"
+              android:textColor="@color/white"
+              android:textSize="12sp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="20dp"
+              android:paddingLeft="10dp"
+              android:paddingRight="10dp"
+              android:text="Bumbu Halus:"
+              android:textStyle="bold"
+              android:textColor="@color/white"
+              android:textSize="12sp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:paddingLeft="10dp"
+              android:paddingRight="10dp"
+              android:layout_marginTop="5dp"
+              android:text="12 buah bawang merah, 8 buah bawang putih, 3 ruas jari jahe, 3 ruas jari kunyi, 5 buah cabe merah, 25 buah cabe rawit"
+              android:textColor="@color/white"
+              android:textSize="12sp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="20dp"
+              android:paddingLeft="10dp"
+              android:paddingRight="10dp"
+              android:text="Bahan Pelengkap:"
+              android:textStyle="bold"
+              android:textColor="@color/white"
+              android:textSize="12sp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:paddingLeft="10dp"
+              android:paddingRight="10dp"
+              android:layout_marginTop="5dp"
+              android:text="4 sdt garam, 4 sdm gula pasir, 3 sdt kaldu bubuk"
+              android:textColor="@color/white"
+              android:textSize="12sp" />
+
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="20dp"
+              android:textStyle="bold"
+              android:paddingLeft="10dp"
+              android:paddingRight="10dp"
+              android:text="Cara Membuat:"
+              android:textColor="@color/white"
+              android:textSize="12sp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:paddingLeft="10dp"
+              android:paddingRight="10dp"
+              android:layout_marginTop="5dp"
+              android:text="Potong-potong semua bahan terong, kacang panjang, cabe hijau, cabe merah, lalu Iris-iris tipis batang sereh, daun jeruk, daun mangkok, daun kunyit dan daun melinjo. Haluskan bumbu bawang merah, bawang putih, jahe, kunyit, cabe merah dan cabe rawit. Masukkan udang terlebih dahulu ke dalam wajan, lalu masukkan terong, kacang panjang, daun jeruk, daun mangkok, daun kunyit, sereh, daun melinjo, cabe hijau, cabe merah. Tambahkan jruk drien yang sudah dihaluskan, lalu diaduk hingga tercampur rata. Diamkan sebentar hingga bumbunya meresap, lalu hidupkan kompor. Masukkan santan, garam, gula pasir dan kaldu bubuk, sambil diaduk agar santannya tidak pecah. Masak hingga 15 sampai 20 menit, jika sudah matang angkat dan sajikan."
+              android:textColor="@color/white"
+              android:textSize="12sp" />
+
+      </LinearLayout>
+
+  </ScrollView>
+
+</LinearLayout>

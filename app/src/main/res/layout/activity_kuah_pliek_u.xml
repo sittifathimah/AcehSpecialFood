@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:onClick="back"
+            app:navigationIcon="@drawable/ic_back1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Back"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <TextView
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Kuah Pliek U"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Khas Aceh"
+        android:textColor="#9C8E12"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="159dp"
+        android:layout_height="113dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="30dp"
+        app:srcCompat="@drawable/pliek" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-5dp"
+        android:background="@drawable/bg_circle_radius_primary"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Bahan Bumbu Giling Pliek U:"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Ketumbar giling kering 2 sdm, Cabe merah 6 buah, Cabe rawit 20 buah, Bawang Merah 6 siung, Bawang putih 3 siung, Jahe 1 cm, Kunyit halus 1 sdt, Ketumbar masak 1 sdt, Kelapa gongseng (ulhee) 2 sdm, Merica bulat ½ sdm, Asam sunti 3 buah"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Bumbu Rajang:"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Cabe hijau 9 buah, Bawang merah 3 siung, Sere 2 batang, Daun jeruk 10 lembar, Rebung kala (pucuk kencung) 2 buah."
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Cara Membuat:"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Gongseng pliek u dengan api kecil sampai harum baunya, tambahkan 1 gelas duralex panjang air sampai mendidih. Sesudah mendidih disaring (buang airnya). Blender pliek u hingga halus. Rebus buah melinjo dan nangka muda sampai empuk (buang airnya). Rebus kikil hingga empuk (buang airnya). Potong sayur-sayuran, giling bumbu sampai halus dan rajang bumbu rajang. Peras kelapa kukur sampai mejadi santan encer. Masukkan ke dalam panci sayur-sayuran, bumbu giling, bumbu rajang, udang, garam, pliek u (kecuali kangkung dan daun jeruk) aduk- aduk hingga rata. Masukkan air sedikit lalu direbus. Sesudah berasap masukkan santan encer (aduk-aduk). Ketika hampir matang masukkan kangkung dan daun jeruk."
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+    </LinearLayout>>
+
+</LinearLayout>
